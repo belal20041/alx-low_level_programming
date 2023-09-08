@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	printf("size of char: %c byte\n")
-	printf("size of int: %d byte\n")
-	printf("size of long int: %ld byte\n")
-	printf("size of float: %f byte\n")
+	printf("Size of a char: %c byte(s)\n")
+	printf("Size of an int: %d byte(s)\n")
+	printf("Size of a long long int: %ld byte(s)\n")
+	printf("Size of a float: %f byte(s)\n")
 	return (0)
 }
