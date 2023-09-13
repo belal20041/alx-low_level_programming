@@ -13,11 +13,11 @@ int main(void)
 	while (hex <= 102)
 	{
 		putchar(hex);
-		hex++;
 		if (hex >= 57)
 		{
 			hex += 39;
 		}
+		hex++;
 	}
 	putchar('\n');
 	return (0);
