@@ -15,5 +15,5 @@ int main(void)
 		printf("%i",num);
 		num++;
 	}
-	printf('\n');
+	printf("\n");
 }
