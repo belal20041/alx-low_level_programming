@@ -20,11 +20,16 @@ int main(void)
 			{
 				putchar(num1 + 48);
 				putchar(num2 + 48);
+				if (num1 + num2 != 17)
+				{
+					putchar(",");
+					putchar(" ");
+				}
 			}
-			num2++;
+			num2;
 		}
-		putchar(",");
-		putchar(" ");
 		num1++;
 	}
+	putchar('\n')
+	return (0);
 }
