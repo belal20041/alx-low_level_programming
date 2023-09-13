@@ -13,7 +13,7 @@ int main(void)
 	while (hex <= 102)
 	{
 		putchar(hex);
-		if (hex >= 57)
+		if (hex == 57)
 		{
 			hex += 39;
 		}
