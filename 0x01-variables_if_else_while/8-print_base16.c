@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(hex);
 		hex++;
-		if (hex > 57)
+		if (hex >= 57)
 		{
 			hex += 39;
 		}
