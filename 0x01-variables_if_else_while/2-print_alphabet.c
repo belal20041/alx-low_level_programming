@@ -16,5 +16,6 @@ int main(void)
 		putchar("\n")
 		ch++;
 	}
+	putchar("\n")
 	return (0);
 }
