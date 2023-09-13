@@ -12,9 +12,12 @@ int main(void)
 
 	while (num <= 9)
 	{
-		putchar(num);
+		putchar(num + 48);
+	if (num != 9)
+	}
 		putchar(',');
 		putchar(' ');
+	}
 		num++;
 	}
 	putchar('\n');
