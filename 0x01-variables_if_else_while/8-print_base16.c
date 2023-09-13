@@ -14,10 +14,10 @@ int main(void)
 	{
 		putchar(hex);
 		hex++;
-	}
-	if (hex > 57)
-	{
-		hex +=39;
+		if (hex > 57)
+		{
+			hex += 39;
+		}
 	}
 	putchar('\n');
 	return (0);
