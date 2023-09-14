@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	int num1 = 0, num2;
+	int num1 = 0;
 
 	while (num1 <= 9)
 	{
-		int num2 = 0;
+		int num2 = num1 + 1;
 
 		while (num2 <= 0)
 		{
