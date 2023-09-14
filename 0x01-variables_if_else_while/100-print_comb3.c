@@ -1,35 +1,32 @@
+#include <unistd.h>
 #include <stdio.h>
 
 /**
- * main -entry point
- * Description possible different combinations of two digits.
- * Return: always 0 (succees)
+ * main - Entry point
+ *
+ * Return: Always 0
  */
-
 int main(void)
 {
-	int one = 0, two;
+	int i;
+	int j;
 
-	while (one <= 8)
+	for (i = 0; i <= 8; i++)
 	{
-		two = one + 1;
-
-		while (two <= 9)
+		for (j = i + 1; j <= 9; j++)
 		{
+			putchar(i + '0');
+			putchar(j + '0');
 
-			if (one != two)
+			if (i != 8 || j != 9)
 			{
-				putchar(one + '0');
-				putchar(two + '0');
 				putchar(',');
 				putchar(' ');
 			}
-
-			two++;
 		}
-
-		one++;
 	}
+
+	putchar('\n');
 
 	return (0);
 }
