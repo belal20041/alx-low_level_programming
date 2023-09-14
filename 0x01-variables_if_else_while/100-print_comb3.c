@@ -8,30 +8,28 @@
 
 int main(void)
 {
-	int num1 = 0;
+	int one = 0, two;
 
-	while (num1 <= 9)
+	while (one <= 8)
 	{
-		int num2 = num1 + 1;
+		two = one + 1;
 
-		while (num2 <= 0)
+		while (two <= 9)
 		{
-			if (num1 != num2 && num2 > num1)
-			{
-				putchar(num1 + 48);
-				putchar(num2 + 48);
 
-				if (num1 + num2 != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+			if (one != two)
+			{
+				putchar(one + '0');
+				putchar(two + '0');
+				putchar(',');
+				putchar(' ');
 			}
-			num2++;
+
+			two++;
 		}
-		num1++;
+
+		one++;
 	}
-	putchar('\n');
 
 	return (0);
 }
