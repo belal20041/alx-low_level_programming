@@ -12,7 +12,7 @@ int main(void)
 	for (count = 0; count <= 49; count++)
 	{
 		sum = x + y;
-		printf("lu", sum);
+		printf("%lu", sum);
 
 		x = y;
 		y = sum;
