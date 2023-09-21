@@ -9,6 +9,7 @@ int main(void)
 {
 	unsigned long int x = 0, y = 1, sum;
 	float total;
+
 	while (1)
 	{
 		sum = x + y;
