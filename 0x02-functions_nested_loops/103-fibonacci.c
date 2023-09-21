@@ -8,21 +8,19 @@
 int main(void)
 {
 	unsigned long int x = 0, y = 1, sum, count;
-	float total;
 
 	for (count = 0; count <= 49; count++)
 	{
 		sum = x + y;
-		if (sum > 4000000)
-			break;
-
-		if ((sum %2) == 0)
-			total += sum;
+		printf("%lu", sum);
 
 		x = y;
 		y = sum;
 
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("%f\n", total)
 	return (0);
 }
