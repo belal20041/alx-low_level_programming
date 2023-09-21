@@ -23,7 +23,7 @@ int numLength(int num)
 
 /**
  * main =entry point
- * Description:  prints the first 98 Fibonacci numbers
+ * Description  -prints the first 98 Fibonacci numbers
  * Return: always 0 (success)
  */
 
@@ -48,7 +48,7 @@ int main(void)
 		printf("%lu", f1);
 
 		sum = (f1 + f2) % mx;
-		sumo f1o + f2o + (f1 + f2) / mx;
+		sumo = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
 		f1o = f2o;
 		f2 = sum;
