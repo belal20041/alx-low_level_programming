@@ -11,7 +11,7 @@ int main(void)
 
 	for (count = 0; count <= 49; count++)
 	{
-		sum x + y;
+		sum = x + y;
 		printf("lu", sum);
 
 		x = y;
