@@ -12,6 +12,7 @@ int main(void)
 	while (1)
 	{
 		sum = x + y;
+
 		if (sum > 4000000)
 			break;
 
