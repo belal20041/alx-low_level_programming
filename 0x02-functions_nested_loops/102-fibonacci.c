@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int x = 0, y = 1, sum, count;
+	long unsigned int x = 0, y = 1, sum, count;
 
 	for (count = 0; count <= 49; count++)
 	{
