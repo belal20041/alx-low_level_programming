@@ -18,8 +18,10 @@ int main(void)
 
 		if ((sum % 2) == 0)
 			total += sum;
+
 		x = y;
 		y = sum;
+
 	}
 	printf("%.0f\n", total);
 	return (0);
