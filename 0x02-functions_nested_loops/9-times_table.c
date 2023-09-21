@@ -2,7 +2,7 @@
 
 /**
  * times_table -prints the 9 times table, starting with 0.
- * */
+ */
 
 void times_table(void)
 {
@@ -11,26 +11,22 @@ void times_table(void)
 	for (n = 0; n <= 9; n++)
 	{
 		_putchar(48);
-		for (m =0; m <= 9; m++)
+		for (m = 0; m <= 9; m++)
 		{
+			_putchar(',');
+			_putchar(' ');
+
 			res = n * m;
 
-			if (res <= 9 && m < 9)
+			if (res <= 9)
 			{
-				_putchar(res + 48);
-				_putchar(',');
-				_putchar(' ');
 				_putchar(' ');
 			}
-			else if (res > 9 && m < 9)
+			else
 			{
 				_putchar((res / 10) + 48);
 				_putchar((res % 10) + 48);
-				_putchar(',');
-				_putchar(' ');
 			}
-			
-
 		}
 		_putchar('\n');
 	}
