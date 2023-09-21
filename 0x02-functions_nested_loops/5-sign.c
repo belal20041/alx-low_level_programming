@@ -15,9 +15,7 @@ int print_sign(int n)
 		if (n > 0)
 			return (1);
 		else
-			return (-1);/usr/bin/ld: /tmp/ccl37YrW.o: in function `test_isalpha':
-main_0.c:(.text+0x15): undefined reference to `_isalpha'
-collect2: error: ld returned 1 exit status
+			return (-1);
 	}
 	return (0);
 }
