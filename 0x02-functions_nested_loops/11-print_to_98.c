@@ -9,13 +9,9 @@ void print_to_98(int n)
 	int res;
 
 	if (n > 98)
-	{
 		for (res = n; res > 98; res--)
-			printf("%d", res);
-	}
+			printf("%d, ", res);
 	else
-	{
 		for (res = n; res < 98; res++)
-			printf("%d", res);
-	}
+			printf("%d, ", res);
 }
