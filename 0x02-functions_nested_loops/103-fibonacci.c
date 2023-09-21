@@ -8,19 +8,18 @@
 int main(void)
 {
 	unsigned long int x = 0, y = 1, sum, count;
-
-	for (count = 0; count <= 49; count++)
+	float total;
+	while (1)
 	{
 		sum = x + y;
-		printf("%lu", sum);
+		if (sum > 4000000)
+			break;
 
+		if ((sum % 2) == 0)
+			total += sum
 		x = y;
 		y = sum;
-
-		if (count == 49)
-			printf("\n");
-		else
-			printf(", ");
 	}
+	printf("%.0f\n", total)
 	return (0);
 }
