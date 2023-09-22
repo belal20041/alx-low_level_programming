@@ -2,14 +2,14 @@
 
 /**
  * print_line - draws a straight line in the terminal.
- * @n; num
+ * @n: num
  */
 
 void print_line(int n)
 {
 	int line;
 
-	if (n <=0)
+	if (n <= 0)
 		_putchar('\n');
 	else
 	{
