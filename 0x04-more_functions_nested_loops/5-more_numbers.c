@@ -15,10 +15,10 @@ void more_numbers(void)
 		{
 			n = k;
 
-			if (n > 9)
+			if (k > 9)
 			{
 				_putchar(1 + 48);
-				n = k 5 10;
+				n = k % 10;
 			}
 			_putchar(n + 48);
 		}
