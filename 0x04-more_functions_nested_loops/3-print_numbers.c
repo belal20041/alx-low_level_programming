@@ -6,7 +6,7 @@
 
 void print_numbers(void)
 {
-	int n;
+	int n = 0;
 
 	do {
 		_putchar(n + 48);
