@@ -15,12 +15,12 @@
 void print_remaining_days(int month, int day, int year)
 {
 	/**
-	 * optional dividable by 4
+	 * leap year optional dividable by 4
 	 * must dividable by 100 and 400
 	*/
 	if ((year % 100 == 0 || year % 400 == 0) || (year % 4 == 0))
 	{
-		if (month >= 2 && day >= 60)
+		if (month > 2 && day >= 60)
 		{
 			day++;
 		}
