@@ -11,7 +11,7 @@ int main(void)
 	char ch;
 
 	srand(time(NULL));
-	WHILE (SUM <= 2645)
+	while (sum <= 2645)
 	{
 		C = rand() % 120;
 		sum += ch;
