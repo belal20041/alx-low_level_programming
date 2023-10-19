@@ -3,9 +3,6 @@
 /**
  * last_index - ,bjbnjnbkbkj
  * @s: hjv
- * @start: vbhjv
- * @end: hbi
- * @mod: jvyv
  * Return: bk
  */
 int is_palindrome(char *s);
@@ -23,16 +20,14 @@ int last_index(char *s)
 /**
  * is_palindrome -returns 1 if a string is a palindrome and 0 if not
  * @s: jkbhjk
- * @end: kb bhb
- * @start: kbh
- * @mod: hjvb
- * */
+ * Return: jvjhv
+ */
 
 int is_palindrome(char *s)
 {
 	int end = last_index(s);
 
-	return (check(s, end - 1, end %2));
+	return (check(s, 0, end - 1, end % 2));
 }
 
 /**
@@ -42,7 +37,7 @@ int is_palindrome(char *s)
  * @end: bvjh
  * @mod: kgbh
  * Return: bkhb
- * */
+ */
 
 int check(char *s, int start, int end, int mod)
 {
@@ -51,5 +46,5 @@ int check(char *s, int start, int end, int mod)
 	else if (s[start] != s[end])
 		return (0);
 	else
-		return (check(s, start + 1, end - 1,mod));
+		return (check(s, start + 1, end - 1, mod));
 }
