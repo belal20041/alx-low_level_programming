@@ -19,7 +19,7 @@ int is_prime_number(int n)
  * @n: hkb
  * Return: int
  */
-int check_prime(int n, int othnum);
+int check_prime(int n, int othnum)
 {
 	if (othnum >= n && n > 1)
 		return (1);
