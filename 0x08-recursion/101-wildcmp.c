@@ -5,7 +5,8 @@
  * @s2:gvjh
  * Return: char
  */
-
+int inception(char *s1, char *s2);
+int wildcmp(char *s1, char *s2);
 char *move_past_star(char *s2)
 {
 	if (*s2 == '*')
