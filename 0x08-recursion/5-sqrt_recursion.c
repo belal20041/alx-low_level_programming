@@ -5,7 +5,7 @@
   * @n:num
   * Return:square
   */
-
+int square(int n, int value);
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
